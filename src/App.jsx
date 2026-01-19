@@ -1,11 +1,18 @@
+import MainHeader from "./components/MainHeader"
+import MainContent from "./components/MainContent"
+import MainFooter from "./components/MainFooter"
 
 function App() {
 
 
   return (
 
-    <h1>Ciao sono la tua app</h1>
-
+    <>
+      <MainHeader />
+      <MainContent />
+      <MainFooter />
+      
+    </>
   )
 }
 
