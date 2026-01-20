@@ -13,11 +13,11 @@ a{
   color: grey;
 }
 
-.jumbo{
+.links{
   background-color: #1e90ff;
  
 }
-.jumbo a{
+.links a{
   color: #ffff;
 }
 /*istruzioni Header*/
@@ -50,20 +50,20 @@ h2{
   text-align: center;
   padding: 2rem;
 }
-.jumbo{
+.links{
   display: flex;
   min-height: 20vh;
   justify-content: center;
 
 }
-.jumbo ul, li{
+.links ul, li{
   display: flex;
   list-style: none;
   justify-content: center;
   align-items: center;
 }
 
-.jumbo img{
+.links img{
   width: 50px;
   margin: 0 20px;
 }
