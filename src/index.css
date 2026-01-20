@@ -133,7 +133,7 @@ button{
   padding: 20px;
   align-self: center;
   border: 5px solid #1e90ff;
-  background-color: #2e3440;
+  background-color:transparent;
   color: #ffff;
   font-weight: 700;
   font-size: 15px;
