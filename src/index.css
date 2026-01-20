@@ -8,21 +8,23 @@ body{
   font-family:'open-sans', sans-serif;
   font-weight: 700;
 }
-
-.jumbo{
-  background-color: #4582d1;
- 
-}
 a{
   text-decoration: none;
-  color: inherit;
+  color: grey;
+}
+
+.jumbo{
+  background-color: #1e90ff;
+ 
+}
+.jumbo a{
+  color: #ffff;
 }
 /*istruzioni Header*/
 header{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: grey;
 }
 
 figure{
@@ -41,24 +43,27 @@ nav ul{
 main{
  
   background-color: #2e3440;
-  height: 30vh;
+  min-height: 30vh;
 }
 
 h2{
   text-align: center;
   padding: 2rem;
 }
-
-
-.jumbo ul{
+.jumbo{
   display: flex;
-  list-style-type: none ;
+  min-height: 20vh;
   justify-content: center;
-  
+
 }
-li{
+.jumbo ul, li{
+  display: flex;
+  list-style: none;
+  justify-content: center;
   align-items: center;
 }
-img{
-  width: 3rem;
+
+.jumbo img{
+  width: 50px;
+  margin: 0 20px;
 }
