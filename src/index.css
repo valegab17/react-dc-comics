@@ -55,6 +55,12 @@ nav ul {
   gap: 20px;
 }
 
+
+ul li a.active,
+ul li a:hover {
+  border-bottom: 2px solid #1e90ff;  
+}
+
 /*istruzioni Main*/
 
 main {
