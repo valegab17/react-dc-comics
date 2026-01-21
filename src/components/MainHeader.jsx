@@ -1,11 +1,9 @@
-
+import MainLogo from "./MainLogo"
 
 function MainHeader() {
   return (
     <header>
-        <figure>
-            <img src="/dc-logo.png" alt="" />
-        </figure>
+        <MainLogo />
         <nav>
             <ul>
                 <li><a href="#">CHARACTERS</a></li>

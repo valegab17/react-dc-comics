@@ -92,26 +92,33 @@ li {
 /*istruzioni info*/
 
 .info-footer {
+  position: relative;
   display: flex;
   gap: 4rem;
   background-image: url(./assets/footer-bg.jpg);
   justify-content: center;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat
+  overflow: hidden;
+  min-height: 50vh;
 }
 
 li h3 {
-  display: flex;
   margin: 20px;
 }
 
-.info-footer img{
-  width: 20% ;
+.img-container {
+  position: absolute;
+  top: -10%;
+  bottom: 0;
+  left: 65%;
+  width: 100%;
+  background-image: url(/src/assets/dc-logo-bg.png);
+  background-repeat: no-repeat;
 }
 
+
 /*istruzioni footer*/
-footer{
+footer {
   display: flex;
   justify-content: space-around;
   background-color: #2e3440;
@@ -119,25 +126,25 @@ footer{
 
 }
 
-footer h3{
+footer h3 {
   color: #2e3440;
 }
 
 .follow-us {
-  display: flex;         
-  align-items: center;    
-  gap: 10px;              
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-button{
+button {
   padding: 20px;
   align-self: center;
   border: 5px solid #1e90ff;
-  background-color:transparent;
+  background-color: transparent;
   color: #ffff;
   font-weight: 700;
   font-size: 15px;
   cursor: pointer;
-;
-  
+  ;
+
 }

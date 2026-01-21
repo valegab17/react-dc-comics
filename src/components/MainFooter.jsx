@@ -75,8 +75,8 @@ function MainFooter() {
           <li><a href="#">DC Universe</a></li>
           <li><a href="#">DC Power Visa</a></li>
         </ul>
-
-        <img src={logoBg} alt="" />
+<div className="img-container">
+</div>
       </div >
       <footer>
         <button>SIGN-UP NOW!</button>
