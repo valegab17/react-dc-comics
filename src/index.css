@@ -63,11 +63,11 @@ ul li a:hover {
   border-bottom: 2px solid #1e90ff;  
 }
 
-/*istruzioni Main*/
-
-h2 {
-  text-align: center;
-  padding: 2rem;
+/*istruzioni jumbo*/
+.jumbo {
+  height: 40vh;
+  background-image: url(./assets/jumbotron.jpg);
+  background-size: cover;
 }
 
 /* istruzioni lista prodotti */
